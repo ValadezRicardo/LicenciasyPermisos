@@ -1,0 +1,50 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+.bg-light{
+	background-color: #f29400 !important;
+}
+.navbar-brand {
+    padding-left: 20px;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 20px;
+}
+
+button.dt-button, div.dt-button, a.dt-button, input.dt-button {
+    border: 1px solid rgba(126, 124, 124, 0.3);
+    border-radius: 8px;
+    color: black;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #aaa;
+    border-radius: 8px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #333 !important;
+    border: 1px solid rgba(126, 124, 124, 0.3);
+    background-color: white;
+    border-radius: 8px;
+}
+
+.table.dataTable.no-footer {
+    margin-bottom: 20px;
+}
+
+.dataTables_wrapper .dataTables_info {
+    color: #999;
+    font-style: italic;
+}
+
+tr {
+    border-color: rgb(170, 170, 170) !important;
+}
+
+select {
+    cursor: pointer;
+}
